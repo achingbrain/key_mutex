@@ -1,7 +1,7 @@
 var $ = {};
 module.exports = $;
 
-var cluster = require('cluster');
+var cluster = require('./cluster');
 
 var index = 0;
 

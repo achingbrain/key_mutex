@@ -2,7 +2,7 @@ var $ = {};
 module.exports = $;
 
 
-var cluster = require('cluster');
+var cluster = require('./cluster');
 var util = require('./util');
 var msg_key_rw_mutex = require('./msg_key_rw_mutex');
 

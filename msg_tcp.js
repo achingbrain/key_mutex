@@ -2,8 +2,8 @@ var $ = {};
 module.exports = $;
 
 
-var cluster = require('cluster');
-var net = require('net');
+var cluster = require('./cluster');
+var net = require('./net');
 var util = require('./util');
 var msg_process = require('./msg_process');
 

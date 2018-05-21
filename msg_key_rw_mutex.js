@@ -1,7 +1,7 @@
 var $ = {};
 module.exports = $;
 
-var cluster = require('cluster');
+var cluster = require('./cluster');
 var msg_tcp = require('./msg_tcp');
 var msg_process = require('./msg_process');
 
